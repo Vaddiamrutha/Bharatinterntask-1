@@ -1,0 +1,162 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e7bae9;
+    color: hsl(180, 4%, 5%);
+}
+.logo a {
+    color: #FF4500;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo .highlight {
+    color: #FFD700; 
+}
+
+.top-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header, nav,  footer {
+    padding: 20px 0;
+    background-color:#770e7b;
+    color: hsl(249, 20%, 81%);
+}
+    
+section{
+    padding: 20px 0;
+    color: rgb(52, 12, 40);
+
+}
+
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #d8d0d8;
+    font-weight: bold;
+    transition: color 0.3s;
+    z-index: 1;
+}
+
+nav a:hover {
+    color: #ffd700; /* Change color on hover to gold/yellow */
+}
+
+section {
+    background-color: #f3edee;
+    padding: 40px 0;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h2 {
+    color: #270625;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.project {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.05); /* Enlarge on hover */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+.contact-left{
+    flex-basis: 45%;
+ }
+ .contact-right{
+     flex-basis: 45%;
+  }
+ .contact-left p{
+     margin-top: 30px; 
+     font-size: 17px;
+     color: black;
+ }
+ .contact-left p i{
+     color:black;
+     margin-right: 15px;
+     font-size: 20px;
+ }
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: #333;
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color: #FF4500; 
+}
+
+
+footer {
+    text-align: center;
+    background-color: #770e7b;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text {
+    width: 60%; 
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.about-image img:hover {
+    transform: scale(1.1); 
+}
+
